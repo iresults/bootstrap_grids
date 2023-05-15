@@ -78,9 +78,9 @@ lib.bootstrap_grids {
                 outerWrap.cObject {
                   key.data = register:TabCount
                   default = TEXT
-                  default.value = <a class="nav-item nav-link" id="nav-c{field:uid}-tab" data-toggle="tab" href="#nav-c{field:uid}" role="tab" aria-controls="nav-c{field:uid}">|</a>
+                  default.value = <a class="nav-item nav-link" id="nav-c{field:uid}-tab" data-toggle="tab" data-bs-toggle="tab" href="#nav-c{field:uid}" role="tab" aria-controls="nav-c{field:uid}">|</a>
                   1 = TEXT
-                  1.value = <a class="nav-item nav-link active" id="nav-c{field:uid}-tab" data-toggle="tab" href="#nav-c{field:uid}" role="tab" aria-controls="nav-c{field:uid}">|</a>
+                  1.value = <a class="nav-item nav-link active" id="nav-c{field:uid}-tab" data-toggle="tab" data-bs-toggle="tab" href="#nav-c{field:uid}" role="tab" aria-controls="nav-c{field:uid}">|</a>
                 }
               }
             }
