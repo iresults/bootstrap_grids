@@ -1,25 +1,35 @@
 {
-  "name": "laxap/bootstrap-grids",
-  "type": "typo3-cms-extension",
-  "description": "Gridelements for bootstrap v4. Column grids, tabs and accordion.",
-  "license": "GPL-2.0-or-later",
-  "version": "2.2.0",
-  "keywords": ["typo3", "TYPO3 CMS", "bootstrap", "gridelements"],
-  "homepage": "https://extensions.typo3.org/extension/bootstrap_grids/",
-  "support": {
-    "issues": "https://github.com/laxap/bootstrap_grids/issues"
-  },
-  "require": {
-    "php": "^7.2",
-    "typo3/cms-core": "^10.4",
-    "gridelementsteam/gridelements": "^10"
-  },
-  "replace": {
-    "typo3-ter/bootstrap-grids": "self.version"
-  },
-  "autoload": {
-    "psr-4": {
-      "Laxap\\BootstrapGrids\\": "Classes"
+    "name": "laxap/bootstrap-grids",
+    "type": "typo3-cms-extension",
+    "description": "Gridelements for bootstrap v4. Column grids, tabs and accordion.",
+    "license": "GPL-2.0-or-later",
+    "version": "2.2.0",
+    "keywords": [
+        "typo3",
+        "TYPO3 CMS",
+        "bootstrap",
+        "gridelements"
+    ],
+    "homepage": "https://extensions.typo3.org/extension/bootstrap_grids/",
+    "support": {
+        "issues": "https://github.com/laxap/bootstrap_grids/issues"
+    },
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "typo3/cms-core": "^10.4 || ^11.5",
+        "gridelementsteam/gridelements": "^10 || ^11"
+    },
+    "replace": {
+        "typo3-ter/bootstrap-grids": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laxap\\BootstrapGrids\\": "Classes"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "bootstrap_grids"
+        }
     }
-  }
 }
