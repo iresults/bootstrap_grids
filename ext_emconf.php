@@ -15,7 +15,9 @@ $EM_CONF[$_EXTKEY] = [
     'state'            => 'stable',
     'clearCacheOnLoad' => true,
     'constraints'      => [
-        'depends'   => [],
+        'depends'   => [
+            'gridelements' => '*',
+        ],
         'conflicts' => [],
         'suggests'  => [],
     ],
