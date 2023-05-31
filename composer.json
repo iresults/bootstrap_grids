@@ -1,9 +1,8 @@
 {
-    "name": "laxap/bootstrap-grids",
+    "name": "iresults/bootstrap-grids",
     "type": "typo3-cms-extension",
     "description": "Grid Elements for Twitter Bootstrap v4 & 5. Column grids, tabs and accordion.",
     "license": "GPL-2.0-or-later",
-    "version": "2.2.0",
     "keywords": [
         "typo3",
         "TYPO3 CMS",
@@ -20,7 +19,8 @@
         "gridelementsteam/gridelements": "^10 || ^11"
     },
     "replace": {
-        "typo3-ter/bootstrap-grids": "self.version"
+        "typo3-ter/bootstrap-grids": "self.version",
+        "laxap/bootstrap-grids": "*"
     },
     "autoload": {
         "psr-4": {
