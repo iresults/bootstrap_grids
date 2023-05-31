@@ -1,7 +1,7 @@
 {
     "name": "laxap/bootstrap-grids",
     "type": "typo3-cms-extension",
-    "description": "Gridelements for bootstrap v4. Column grids, tabs and accordion.",
+    "description": "Grid Elements for Twitter Bootstrap v4 & 5. Column grids, tabs and accordion.",
     "license": "GPL-2.0-or-later",
     "version": "2.2.0",
     "keywords": [

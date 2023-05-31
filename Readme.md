@@ -1,6 +1,6 @@
 # TYPO3 Extension "bootstrap_grids"
 
-Predefined Grid Elements for Bootstrap 4 & 5: Column grids, grids for simple accordions, tabs.
+Predefined Grid Elements for Twitter Bootstrap v4 & 5: Column grids, grids for simple accordions, tabs.
 
 ## More information
 
