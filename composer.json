@@ -14,7 +14,8 @@
         "issues": "https://github.com/laxap/bootstrap_grids/issues"
     },
     "require": {
-        "gridelementsteam/gridelements": "^8.0 || ^9.0 || ^10.4.3"
+        "typo3/cms-core": "^11.5",
+        "gridelementsteam/gridelements": "*"
     },
     "autoload": {
         "psr-4": {

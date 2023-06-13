@@ -15,11 +15,7 @@ $EM_CONF[$_EXTKEY] = [
     'state'            => 'stable',
     'clearCacheOnLoad' => true,
     'constraints'      => [
-        'depends'   => [
-            'typo3'        => '10.4.0-11.5.99',
-            'gridelements' => '8.0.0-10.9.99',
-        ],
-        'conflicts' => [
-        ],
+        'depends'   => [],
+        'conflicts' => [],
     ],
 ];
