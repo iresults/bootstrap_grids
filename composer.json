@@ -1,5 +1,5 @@
 {
-    "name": "laxap/bootstrap-grids",
+    "name": "iresults/bootstrap-grids",
     "type": "typo3-cms-extension",
     "description": "Gridelements for bootstrap. Column grids, grids for simple accordions, tabs and content slider.",
     "license": "GPL-2.0",
@@ -21,6 +21,10 @@
         "psr-4": {
             "Laxap\\BootstrapGrids\\": "Classes"
         }
+    },
+    "replace": {
+        "typo3-ter/bootstrap-grids": "self.version",
+        "laxap/bootstrap-grids": "*"
     },
     "extra": {
         "typo3/cms": {
